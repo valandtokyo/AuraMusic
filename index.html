@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Music</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <!-- IMPORTANTE: el archivo debe llamarse styles.css y estar al mismo nivel -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ENCABEZADO -->
+<header class="header">
+
+    <!-- Botón menú móvil -->
+    <input type="checkbox" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <!-- Logo -->
+    <a href="#" class="logo">AuraMusic<span>.</span></a>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Conócenos</a>
+        <a href="#products">Productos</a>
+        <a href="#review">Reviews</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- Iconos -->
+    <div class="icons">
+        <a href="#" class="fas fa-heart" aria-label="Favoritos"></a>
+        <a href="#" class="fas fa-shopping-cart" aria-label="Carrito"></a>
+    </div>
+
+</header>
+
+</body>
+</html>
+
+<!-- HOME-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>AuraMusic.</h3>
+        <span>Vibra en tu propia frecuencia</span>
+        <p>Aquí la música vibra contigo, transforma espacios y convierte emociones en experiencias inolvidables.
+        </p>
+        <a href="#products" class="btn">Comprar ahora</a>
+    </div>
+</section>
+
+<!-- ABOUT-->
+<section class="about" id="about">
+    <h1 class="heading"> <span> Acerca de </span> nosotros </h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="\Instrumentos2.mp4" loop autoplay muted></video>
+            <h3>Instrumentos de calidad</h3>
+        </div>
+
+        <div class="content">
+            <h3>¿Por qué elegirnos?</h3>
+            <p>En AuraMusic creemos que la música es una experiencia que comienza desde el primer contacto con tu instrumento.</p>
+            <p>Cuidamos cada detalle para brindarte el mejor sonido, diseño y durabilidad, junto con una atención cercana que te acompaña en cada elección.</p>
+            <p>Elegir AuraMusic es elegir confianza, estilo y una experiencia musical auténtica.</p>
+            <a href="#contact" class="btn">Más información</a>
+        </div>
+    </div>
+</section>
+ 
+<!-- ICONS-->
+ <section class="icons-container">
+    <div class="icons">
+        <img src="\Envio gratis.png" alt="Icono camión de entrega rápida">
+        <div class="info">
+            <h3>Entrega exprés</h3>
+            <span>disponible</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="\Ubicacion.png" alt="Icono de ubicación">
+        <div class="info">
+            <h3>Seguimiento en tiempo real</h3>
+            <span>de tu pedido</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="\Garantia.png" alt="Icono de caja de devolución">
+        <div class="info">
+            <h3>Garantía de devolución</h3>
+            <span>de 30 días</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="\Oferta.png" alt="Icono de ofertas y promociones">
+        <div class="info">
+            <h3>Ofertas & regalos</h3>
+            <span>en cada compra que realices</span>
+        </div>
+    </div>
+ </section>
+ 
+
+ <!-- PRODUCTOS -->
+ <section class="products" id="products">
+    <h1 class="heading"> Últimos <span>productos</span></span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">-25%</span>
+            <div class="image">
+                <img src="\Bajo.jpg.png" alt="Bajo">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#  " class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Bajo Aura Bass Pro</h3>
+                <div class="price"> $6,299 MXN <br> <span> $8,399 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-30%</span>
+            <div class="image">
+                <img src="\teclado.jpg" alt="Teclado">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Teclado Aura Keys 88</h3>
+                <div class="price"> $7,499 MXN <br> <span> $10,699 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="\audifonos.jpg" alt="Audífonos">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Audífonos AuraSound Studio</h3>
+                <div class="price"> $2,199 MXN <br> <span> $2,599 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="\microfono.jpg" alt="Micrófono">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Micrófono Aura Voice X</h3>
+                <div class="price"> $1,899 MXN <br> <span> $2,099 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-18%</span>
+            <div class="image">
+                <img src="\guitarra acustica.jpg" alt="Guitarra acústica">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Guitarra Acústica Aura Wood</h3>
+                <div class="price"> $4,299 MXN <br> <span> $5,249 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-22%</span>
+            <div class="image">
+                <img src="\Interfaz.jpg" alt="Interfaz de audio">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Interfaz de Audio Aura Link</h3>
+                <div class="price"> $3,599 MXN <br> <span> $4,599 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="\Pad.png" alt="Pad electrónico">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Pad Electrónico Aura Beat</h3>
+                <div class="price"> $2,999 MXN <br> <span> $3,749 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-28%</span>
+            <div class="image">
+                <img src="\G.electrico.png" alt="Guitarra eléctrica">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Guitarra Eléctrica Aura Mood</h3>
+                <div class="price"> $5,999 MXN <br> <span> $8,299 MXN</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-12%</span>
+            <div class="image">
+                <img src="\Ukulele.jpg" alt="Ukulele">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Añadir al carrito</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Ukulele Aura Mini</h3>
+                <div class="price"> $1,299 MXN <br> <span> $1,479 MXN</span></div>
+            </div>
+        </div>
+        
+    </div>
+ </section>
+
+<!-- REVIEWS -->
+ <section class="review" id="review">
+    <h1 class="heading"> Reseñas de <span>clientes</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"Increíble experiencia de compra.Los instrumentos son de excelente calidad y el sonido es justo lo que buscaba. El envío fue rápido y el empaque llegó perfecto. Sin duda volveré a comprar en esta tienda."</p>
+            <div class="user">
+                <img src="\cliente1.jpg" alt="Foto del cliente Tomas">
+                <div class="user-info">
+                    <h3>Tomas - Jalisco</h3>
+                    <span>Cliente satisfecho</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"AuraMusic es mi nueva tienda favorita. Precios justos, productos increíbles y una vibra única. Me encantó que incluyeran un pequeño regalo en mi compra. Totalmente recomendada.”</p>
+            <div class="user">
+                <img src="\cliente2.jpg" alt="Foto del cliente Héctor">
+                <div class="user-info">
+                    <h3>Héctor - Ciudad de México</h3>
+                    <span>Cliente satisfecho</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>AuraMusic no solo vende instrumentos, vende inspiración. Excelente sonido, entrega rápida y un estilo que se siente desde que usas tu producto. Sin duda, mi nueva tienda favorita.</p>
+            <div class="user">
+                <img src="\cliente3.jpg" alt="Foto del cliente Victor">
+                <div class="user-info">
+                    <h3>Victor - San Miguel de Allende</h3>
+                    <span>Cliente satisfecho</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+    </div>
+ </section>
+
+<!-- CONTACTO -->
+ <section class="contact" id="contact">
+    <h1 class="heading"> Ponte en <span> contacto </span></h1>
+    <div class="row">
+        <form action="">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" placeholder="Nombre" class="box">
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" placeholder="E-mail" class="box">
+            <label for="numero">Número</label><br>
+            <input type="number" id="numero" placeholder="Número" class="box">
+            <label for="mensaje">Escribenos un mensaje</label><br>
+            <textarea id="mensaje" name="mensaje" class="box" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar mensaje" class="btn">
+        </form>
+        <div class="image">
+            <img src="\contactanos1.jpg"alt="Imagen de gato y perro con audifonos">
+        </div>
+    </div>
+ </section>
+
+<!-- INFORMACION DE CONTACTO Y COPYRIGHT -->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Accesos rápidos</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Conócenos</a>
+            <a href="#">Productos</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contacto</a>
+        </div>
+
+        <div class="box">
+            <h3>Redes sociales</h3>
+            <a href="#">Instagram: @auramusic.oficial</a>
+            <a href="#">Facebook: AuraMusic Instruments</a>
+            <a href="#">X (Twitter): @AuraMusicMX</a>
+            <a href="#">TikTok: @auramusic</a>
+            <a href="#">YouTube: AuraMusic Oficial</a>
+        </div>
+
+        <div class="box">
+            <h3>Información de contacto</h3>
+            <a href="#">55 3458 5342</a>
+            <a href="#">info@auramusic.mx</a>
+            <a href="#">soporte@auramusic.mx</a>
+            <a href="#">Ciudad de México, México - 06000</a>
+        </div>
+    </div>
+
+    <div class="copyright"> © <span>AuraMusic</span> 2026 </div>
+ </section>
